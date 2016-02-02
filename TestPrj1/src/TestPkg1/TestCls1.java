@@ -34,6 +34,7 @@ public class TestCls1 {
 	public void tearDown() {
 		if(driver!=null) {
 			System.out.println("Closing IE browser");
+			
 			driver.quit();
 		}
 	}

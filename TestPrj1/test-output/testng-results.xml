@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13719" started-at="2016-02-02T16:08:40Z" finished-at="2016-02-02T16:08:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13719" started-at="2016-02-02T16:08:40Z" finished-at="2016-02-02T16:08:54Z">
+      <class name="TestPkg1.TestCls1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPkg1.TestCls1@5594a1b5]" name="setUp" is-config="true" duration-ms="2572" started-at="2016-02-02T21:38:40Z" finished-at="2016-02-02T21:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInIEBrowser()[pri:0, instance:TestPkg1.TestCls1@5594a1b5]" name="testGooglePageTitleInIEBrowser" duration-ms="10332" started-at="2016-02-02T21:38:43Z" finished-at="2016-02-02T21:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInIEBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestPkg1.TestCls1@5594a1b5]" name="tearDown" is-config="true" duration-ms="804" started-at="2016-02-02T21:38:53Z" finished-at="2016-02-02T21:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPkg1.TestCls1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
