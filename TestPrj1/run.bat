@@ -1,3 +1,9 @@
-set classpath=C:\POCsAutomation\workspace\TestProject1\TestPrj1\bin;C:\POCsAutomation\workspace\TestProject1\TestPrj1\lib\*;
+javac -d bin\ -cp lib\* src\TestPkg1\*.java
+
+echo " Compilation done"
 
 java -cp bin;lib\* org.testng.TestNG testng.xml
+
+echo " Execution done"
+
+
