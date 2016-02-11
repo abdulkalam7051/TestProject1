@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TestCls1 {
 	
-	static String driverPath = "C:\\POCsAutomation\\workspace\\IEDriver32bit\\";
+	static String driverPath = "C:\\POCsAutomation\\workspace\\IEDriver64bit\\";
 	public WebDriver driver;
 	
 	@BeforeClass
